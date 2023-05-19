@@ -39,7 +39,7 @@
     </tr>
     <tr>
         <td>total harga</td>
-        <td>{{$order->total_price}}</td>
+        <td>{{$order->total_price}}</td>{{$snapToken}}
     </tr>
   </table>
     <button class="btn btn-primary" id="pay-button">bayar sekarang</button>
